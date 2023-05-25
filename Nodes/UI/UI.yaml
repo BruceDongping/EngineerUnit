@@ -60,7 +60,7 @@ Children:
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
-    Value: {"Id":46,"Namespace":1}
+    Value: {"IdType":2,"Id":"ab748d889b263909f6ce6c206e0c8663","Namespace":7}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -415,7 +415,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "{Session}/User@BrowseName"
+        Value: "../AnalogVariable1/EngineeringUnits/DisplayName"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -493,7 +493,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../AnalogVariable1/EngineeringUnits/DisplayName@BrowseName"
+        Value: "../AnalogVariable1/EngineeringUnits/DisplayName"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -575,7 +575,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../AnalogVariable1/EngineeringUnits/DisplayName@BrowseName"
+        Value: "../AnalogVariable1/EngineeringUnits/DisplayName"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -657,7 +657,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../Label2/AnalogVariable1@BrowseName"
+        Value: "../../Label2/AnalogVariable1"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -679,7 +679,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../Label3/AnalogVariable1@BrowseName"
+        Value: "../../Label3/AnalogVariable1"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -701,7 +701,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../Label4/AnalogVariable1@BrowseName"
+        Value: "../../Label4/AnalogVariable1"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
